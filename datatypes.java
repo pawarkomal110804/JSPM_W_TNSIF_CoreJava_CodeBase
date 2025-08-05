@@ -1,41 +1,47 @@
-public class Basics {
-        public static void main(String[] args) {
-        //variable declaration
-        int value1 = 12/5;
-        System.out.println("value of the number variable is : " +value1);
-        float value2 = 12/5f;
-        System.out.println("value of the Name is : " +value2);double value3 = 12/5d;
-        System.out.println("value of the Name is : " +value3);
+package com.tnsif.day1;
 
-        char ch = 'A';
-        System.out.println(ch);
+public class variables {
 
-        char ch1 = 65;
-        System.out.println(ch1);
-        int a = 'A';
+	public static void main(String[] args) {
+		int $num=12;
+		System.out.println("Value Of The Number Variable:"+$num);
+		String StudentName="Komal";
+		System.out.println("Value Of Name Is:"+StudentName);
+		int value=9/2;
+		System.out.println(value);
+		float a=100f/3f;
+		System.out.println(a);
+		double b=100d/3d;
+		System.out.println(b);
+		char ch='K';
+		System.out.println(ch);
+		char ch1=65;
+		System.out.println(ch1);
+		
+		// byte ->1 byte=8 bits=2^8
+		byte bytemax=127;
+		byte bytemin=-128;
+		System.out.println(bytemax);
+		System.out.println(bytemin);
+		
+		//short->2 bytes=16 bits=2^16
+		short shortmin=-32768;
+		short shortmax=32767;
+		System.out.println(shortmin);
+        System.out.println(shortmax);
+        
+        //int->4 bytes=32 bits
+		int intmin=-2147483648;
+		int intmax=2147483647;
+		System.out.println(intmin);
+		System.out.println(intmax);
+		
+		//long->8 bytes=64 bits
+		long longmin=-9223372036854775807L;
+		long longmax=9223372036854775806L;
+        System.out.println(longmin);
+        System.out.println(longmax);
 
-        //BYTE
-        byte byteMax = 127;
-        byte byteMin = -128;
-        System.out.println(byteMax);
-        System.out.println(byteMin);
+	}
 
-        //SHORT
-        short shortMax = 32767;
-        short shortMin = -32768;
-        System.out.println(shortMax);
-        System.out.println(shortMin);
-
-        //INT
-        int intMax = 2147483647;
-        int intMin = -2147483648;
-        System.out.println(intMax);
-        System.out.println(intMin);
-
-        //LONG
-        long longMax = 9223372036854775L; 
-        long longMin = -9223372036854775L;
-        System.out.println(longMax);
-        System.out.println(longMin);
-    }
 }
