@@ -1,6 +1,6 @@
 package com.tnsif.day1;
 
-public class variables {
+public class Datatypes_Variables {
 
 	public static void main(String[] args) {
 		int $num=12;
