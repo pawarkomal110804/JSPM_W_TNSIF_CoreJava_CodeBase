@@ -1,21 +1,36 @@
-import java.util.*;
-class Type_casting
-{
-    public static void main(String args[])
-    {
-        byte b=10;
-        int a=b;
-        System.out.println(b);
-        System.out.println(a);
-    
-        float f=22.14f;
-        double d=f;
-        System.out.println(f);
-        System.out.println(d);
+package com.tnsif.dayone;
 
-        double e=10.5265777676d;
-        long l=(long)e;
-        System.out.println(e);
-        System.out.println(l);
-    }
+public class Type_Casting {
+
+	public static void main(String[] args) {
+		
+		//widening //implicit type casting
+		
+		byte b=10;
+		int l=b;
+		System.out.println(l);
+		
+		float f=22.14f;
+		double d=f;
+		System.out.println(d);
+		
+		char ch='A';
+		int i=ch;
+		
+		//narrowing //expilcit type casting 
+		double f1=10.52f;
+		
+		long ll=(long) f1;
+		System.out.println(ll);
+		
+		long i2=8668525992l;
+		
+		int b1=(int) i2;
+		System.out.println(b1);
+		
+		
+		
+
+	}
+
 }
