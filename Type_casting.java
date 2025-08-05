@@ -8,6 +8,7 @@ public class Type_Casting {
 		
 		byte b=10;
 		int l=b;
+        System.out.println(b);
 		System.out.println(l);
 		
 		float f=22.14f;
